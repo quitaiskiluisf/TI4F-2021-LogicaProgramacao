@@ -1,4 +1,6 @@
 def percentual_de_desconto(valor_da_compra):
+    ''' Calcula o desconto, em reais, a ser concedido para
+    uma compra, dado o valor da compra. '''
     if (valor_da_compra >= 1500):
         return 15
     elif (valor_da_compra >= 750):
